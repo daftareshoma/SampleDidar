@@ -1,9 +1,10 @@
 این پروژه یک API ساده برای دریافت اطلاعات از Webhook و پردازش آن با استفاده از ApiKey پنل "دیدار" است. این API یک متد POST ارائه می‌دهد که داده‌های ارسال‌شده از Webhook را به عنوان ورودی دریافت می‌کند.
 
-2. افزودن تنظیمات ApiKey
+1. افزودن تنظیمات ApiKey
 در فایل appsettings.json مقدار کلید DidarApiKey را وارد کنید:
 
-  "DidarSetting": {
+  "DidarSetting":
+  {
     "Url": "https://app.didar.me/",
     "ApiKey": ""
   }
@@ -11,12 +12,12 @@
 توجه: این کلید را از پنل دیدار دریافت کنید.
 
 
-3. اجرای پروژه
+2. اجرای پروژه
 در محیط توسعه مانند Visual Studio یا با استفاده از .NET CLI:
 dotnet run
 
 
-5. تست API
+3. تست API
 آدرس پیش‌فرض API:
 
 POST https://localhost:7234/api/Didar/SendCall
