@@ -2,28 +2,30 @@
 
 1. افزودن تنظیمات ApiKey
 در فایل appsettings.json مقدار کلید DidarApiKey را وارد کنید:
-
+```
   "DidarSetting":
   {
     "Url": "https://app.didar.me/",
     "ApiKey": ""
   }
-
+```
 توجه: این کلید را از پنل دیدار دریافت کنید.
 
 
 2. اجرای پروژه
 در محیط توسعه مانند Visual Studio یا با استفاده از .NET CLI:
+```
 dotnet run
+```
 
-
-3. تست API
+4. تست API
 آدرس پیش‌فرض API:
-
+```
 POST https://localhost:7234/api/Didar/SendCall
 Content-Type: application/json
-
+```
 نمونه داده ورودی
+```
 {
   "eventType": 22,
   "callId": "BD170E25-1F79-4E29-9F6D-90BB4C804C47",
@@ -34,4 +36,4 @@ Content-Type: application/json
   "result": true,
   "clientReferenceId": "string"
 }
-
+```
