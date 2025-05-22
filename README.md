@@ -18,7 +18,7 @@
 dotnet run
 ```
 
-4. تست API
+3. تست API
 آدرس پیش‌فرض API:
 ```
 POST https://localhost:7234/api/Didar/SendCall
