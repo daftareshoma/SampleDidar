@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Project\\oldCore_NGSC\\Sample.Didar.Api\\Sample.Didar.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Project\\oldCore_NGSC\\Azm.Logging.Serilog\\src\\Azm.Logging.Serilog.csproj": {
+      "version": "1.0.2",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\oldCore_NGSC\\Azm.Logging.Serilog\\src\\Azm.Logging.Serilog.csproj",
+        "projectName": "Azm.Logging.Serilog",
+        "projectPath": "D:\\Project\\oldCore_NGSC\\Azm.Logging.Serilog\\src\\Azm.Logging.Serilog.csproj",
+        "packagesPath": "C:\\Users\\Fatemeh\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\oldCore_NGSC\\Azm.Logging.Serilog\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Project\\oldCore_NGSC\\NuGet.Config",
+          "C:\\Users\\Fatemeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://daftareshoma.pkgs.visualstudio.com/_packaging/default/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Exceptions.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\oldCore_NGSC\\Sample.Didar.Api\\Sample.Didar.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\oldCore_NGSC\\Sample.Didar.Api\\Sample.Didar.Api.csproj",
+        "projectName": "Sample.Didar.Api",
+        "projectPath": "D:\\Project\\oldCore_NGSC\\Sample.Didar.Api\\Sample.Didar.Api.csproj",
+        "packagesPath": "C:\\Users\\Fatemeh\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\oldCore_NGSC\\Sample.Didar.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Project\\oldCore_NGSC\\NuGet.Config",
+          "C:\\Users\\Fatemeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://daftareshoma.pkgs.visualstudio.com/_packaging/default/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Project\\oldCore_NGSC\\Azm.Logging.Serilog\\src\\Azm.Logging.Serilog.csproj": {
+                "projectPath": "D:\\Project\\oldCore_NGSC\\Azm.Logging.Serilog\\src\\Azm.Logging.Serilog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
